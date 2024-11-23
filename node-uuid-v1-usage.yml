@@ -18,13 +18,13 @@ rules:
     metadata:
       category: security
       subcategory:
-        - guardrail
+        - audit
       cwe:
         - "CWE 330: Use of Insufficiently Random Values"
       confidence: HIGH
       likelihood: MEDIUM
       impact: HIGH
       technology:
-        - nginx
+        - --no technology--
       references:
         - https://medium.com/appsec-untangled/lessons-learned-3-is-your-random-uuid-really-random-1a8a62207c8b
